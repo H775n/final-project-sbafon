@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+   background-color: darkslateblue;
+    background-size: 445px;
+    background-position: top;
+    padding: 24px;
+	height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 7px 7px 20px rgb(23, 23, 126);
+    background-size: cover;
+    backdrop-filter: saturate(0.5);
+    max-width: 1196px;
+    margin: 0 auto;
+}
+/**start header and nav**/ 
+
+.header {
+    background-image: url(../imgs/hh.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 23%;
+    padding: 40px 0px;
+    padding-bottom: 35px;
+    
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+	font-family: sans-serif;
+}
+.navbar {
+    display: flex;
+    background-color: #333;
+    margin-bottom: 10px;
+  }
+
+.header {
+    padding: 60px;
+    text-align: center;
+    margin-top: -24px;
+    color: white;
+  }
+  /**end header and nav**/  
+ /* start header coment */
+header {
+	background-color: #eee;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 2em;
+	margin: 0;
+}
+
+header img {
+	width: 211px;
+	height: auto;
+}
+/* end header coment */
+.name {
+	margin-bottom: 10px;
+	}
+	
+	.comment {
+	margin-bottom: 20px;
+	}
+
+	.feedback {
+	margin-top: 10px;
+	}
+	
+	.like-btn, .dislike-btn {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	margin-right: 10px;
+	}
+	
+	.like-btn:focus, .dislike-btn:focus {
+	outline: none;
+	}
+	
+	.fa {
+	margin-right: 5px;
+	}
+	
+
+
+section {
+	margin: 50px auto;
+	max-width: 800px;
+}
+
+.comment {
+	background-color: #f9f9f9;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	margin: 34px auto;
+    max-width: 713px;
+}
+
+.comment .details {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.comment .details h2 {
+	margin: 0;
+	font-size: 1.2em;
+	margin-right: 15px;
+	
+}
+
+.comment .details p {
+	font-size: 0.8em;
+	margin: 0;
+	color: #8d8d8d;
+}
+
+.comment .comment-text {
+	line-height: 1.5;
+	margin: 0 0 20px 0;
+}
+
+.comment .feedback {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.comment .feedback button {
+	margin-right: 10px;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px;
+	font-size: 1em;
+	border-radius: 5px;
+}
+
+.comment .feedback button:hover {
+	background-color: #3e8e41;
+	cursor: pointer;
+}
+
+.comment .feedback button i {
+	margin-right: 5px;
+}
+
+.comment .feedback span {
+	margin-right: 10px;
+	font-size: 1.2em;
+	color: #333;
+}
+
+.likes {
+	display: inline-block;
+	margin-right: 10px;
+  }
+
+  /* تغيير لون النص وحجم الخط في التعليقات */
+#commentsContainer div {
+	color: rgb(52, 19, 240);
+	font-size: 16px;
+  }
+  
+  /* تغيير تنسيق عنصر الإعجابات */
+  .likes {
+	margin-top: 20px;
+  }
+  
+  /* تغيير لون الأزرار */
+  button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* تغيير تنسيق العدادات */
+  #likeCount, #dislikeCount {
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 5px;
+  }
+
+  .comm{
+	margin-left: 419px;
+  }
+  /* start Responsiv */
+  @media (max-width: 700px) {
+    body{
+    width: 100%;
+    height: 100%;
+    }
+    section,.navbar {   
+      flex-direction: column;
+    }
+    section{
+       display: flex;
+    }
+    p{
+       margin-top: 20px;
+    }  
+	.comm {
+		margin-left: 60px;
+	}
+    .address {
+      margin-bottom: 30px;
+  }
+  .copyright p {
+      font-size: 16px;
+      padding: 0 15px;
+  }
+  
+  ul.contant_icon {
+      margin-bottom: 20px;
+  }
+  .row {
+    flex-direction: column;
+}
+.footer{
+    margin-top: -316px;
+}
+}
+/* end Responsive */
+
+
+  
+/* start footer */
+.width {
+	width: 25%;
+  display: contents;
+}
+
+.footer {
+	background: #2d007c;;
+	padding-top: 55px;
+  padding: 31px;
+  margin-top: 306px;
+  
+}
+
+.footer .address h3 {
+	color: #fff;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+.footer .address i {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.footer .address i img {
+	padding-right: 10px;
+}
+
+ul.contant_icon {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+
+ul.contant_icon li {
+	float: left;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-right: 8px;
+}
+ul.contant_icon li img {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.copyright {
+	background-color: #fff;
+    padding: 55px 0px 6px;
+    margin-top: 37px;
+}
+
+.copyright p {
+	color: #000;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	font-weight: 400;
+}
+
+ .copyright a:hover {
+	color: #da4207
+} 
+.row{
+  display: inline-flex;
+  margin-top: -51px;
+}
+li{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* end footer */

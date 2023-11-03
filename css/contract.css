@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* start body */
+body{
+    background-color: darkslateblue;
+    padding: 24px;
+    height: auto;
+   /* width: 100%;*/
+    border: 1px solid #ccc;
+    box-shadow: 7px 7px 20px rgb(23, 23, 126);
+    background-size: contain;
+    backdrop-filter: saturate(0.5);
+    max-width: 1196px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* end body */
+/**start header and nav **/ 
+.header {
+    background-image: url(../imgs/hh.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 23%;
+    padding: 40px 0px;
+    padding-bottom: 35px;
+    
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+}
+.navbar {
+    display: flex;
+    background-color: #333;
+    margin-bottom: 13px;
+    margin-top: 2px;
+  
+  }
+
+.header {
+    padding: 60px;
+    text-align: center;
+    margin-top: -24px;
+    color: white;
+  }
+  /**end header and nav**/
+  /* form */
+form {
+    height: 520px;
+    width: 400px;
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    transform: translate(-50%, -84%);
+    border-radius: 20px;
+}
+form * {
+    font-family: "poppins", sans-serif;
+    color: #d7dbe0;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+@font-face {
+    font-family: "potatos";
+    src: url(Spicy\ Potatos.ttf);
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #897b81e0;
+    border-radius: 3px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 20px;
+    border: 1px solid #142741;
+}
+
+::placeholder {
+    color: #142741;
+}
+
+.sent {
+    background-color: #20222ceb;
+    color: #e9edeb;
+}
+/* end form */
+ /* start table */
+ table {
+    border-collapse: collapse;
+    width: 88%;
+    transform: translate(87px, 398px);
+    margin-top: 45px;
+}
+
+
+th,
+td {
+    border: 1px solid #e2dada;
+    padding: 20px;
+    text-align: center;
+    color: darkgray;
+}
+  /* end table */
+  /* start responsiv */
+  @media (max-width: 768px) 
+  {
+    body{
+        width: 100%;
+        height: 100%;
+        }
+        section,.navbar {   
+          flex-direction: column;
+        }
+        section{
+           display: flex;
+        }
+        table {
+            margin-top: 220px;
+            margin-left: -36px;
+        }
+        p{
+           margin-top: 20px;
+        }  
+        .address {
+          margin-bottom: 30px;
+      }
+      .copyright p {
+          font-size: 16px;
+          padding: 0 15px;
+      }
+      
+      ul.contant_icon {
+          margin-bottom: 20px;
+      }
+      .row {
+        flex-direction: column;
+    }
+    .footer{
+        margin-top: -316px;
+    }
+}
+   /* end responsiv */
+  /* start footer */
+  .width {
+	width: 25%;
+  display: contents;
+}
+
+.footer {
+	background: #2d007c;;
+	padding-top: 55px;
+  padding: 31px;
+  margin-top: 306px;
+  margin-top: 762px;
+  
+}
+
+.footer .address h3 {
+	color: #fff;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+.footer .address i {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.footer .address i img {
+	padding-right: 10px;
+}
+
+ul.contant_icon {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+
+ul.contant_icon li {
+	float: left;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-right: 8px;
+}
+ul.contant_icon li img {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.copyright {
+	background-color: #fff;
+    padding: 55px 0px 6px;
+    margin-top: 37px;
+}
+
+.copyright p {
+	color: #000;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	font-weight: 400;
+}
+
+ .copyright a:hover {
+	color: #da4207
+} 
+.row{
+  display: inline-flex;
+  margin-top: -51px;
+}
+li{
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* end footer */
+
